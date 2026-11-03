@@ -1,0 +1,13 @@
+test_aho_oracle_and_reset (__main__.AlgorithmsTest.test_aho_oracle_and_reset) ... ok
+test_fixtures_and_mixed_jsonl (__main__.AlgorithmsTest.test_fixtures_and_mixed_jsonl) ... ok
+test_full_domain_limits (__main__.AlgorithmsTest.test_full_domain_limits) ... ok
+test_lcs_exhaustive_witness (__main__.AlgorithmsTest.test_lcs_exhaustive_witness) ... ok
+test_merge_all_chronological_choices (__main__.AlgorithmsTest.test_merge_all_chronological_choices) ... ok
+test_search_oracle (__main__.AlgorithmsTest.test_search_oracle) ... ok
+test_suffix_direct_oracle (__main__.AlgorithmsTest.test_suffix_direct_oracle) ... ok
+test_tree_subset_oracle (__main__.AlgorithmsTest.test_tree_subset_oracle) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 12.796s
+
+OK

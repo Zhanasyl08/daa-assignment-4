@@ -1,0 +1,278 @@
+{
+  "runtime": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "scope": "one function call, preprocessing and output allocation included; JSON, oracle, imports excluded",
+  "warmup": "one untimed call per algorithm/input after correctness check",
+  "rows": [
+    {
+      "case": "random",
+      "n": 500,
+      "m": 100,
+      "seed": 404500,
+      "algorithm": "naive",
+      "runs_ms": [
+        0.0952,
+        0.093,
+        0.0828
+      ],
+      "median_ms": 0.093,
+      "matches": 1,
+      "verified": true
+    },
+    {
+      "case": "random",
+      "n": 500,
+      "m": 100,
+      "seed": 404500,
+      "algorithm": "kmp",
+      "runs_ms": [
+        0.0689,
+        0.0679,
+        0.0663
+      ],
+      "median_ms": 0.0679,
+      "matches": 1,
+      "verified": true
+    },
+    {
+      "case": "random",
+      "n": 500,
+      "m": 100,
+      "seed": 404500,
+      "algorithm": "rk",
+      "runs_ms": [
+        0.2122,
+        0.2293,
+        0.268
+      ],
+      "median_ms": 0.2293,
+      "matches": 1,
+      "verified": true
+    },
+    {
+      "case": "random",
+      "n": 1500,
+      "m": 300,
+      "seed": 405500,
+      "algorithm": "naive",
+      "runs_ms": [
+        0.3933,
+        0.3346,
+        0.3448
+      ],
+      "median_ms": 0.3448,
+      "matches": 1,
+      "verified": true
+    },
+    {
+      "case": "random",
+      "n": 1500,
+      "m": 300,
+      "seed": 405500,
+      "algorithm": "kmp",
+      "runs_ms": [
+        0.4499,
+        0.4019,
+        0.4445
+      ],
+      "median_ms": 0.4445,
+      "matches": 1,
+      "verified": true
+    },
+    {
+      "case": "random",
+      "n": 1500,
+      "m": 300,
+      "seed": 405500,
+      "algorithm": "rk",
+      "runs_ms": [
+        0.7739,
+        0.8751,
+        2.565
+      ],
+      "median_ms": 0.8751,
+      "matches": 1,
+      "verified": true
+    },
+    {
+      "case": "random",
+      "n": 3000,
+      "m": 600,
+      "seed": 407000,
+      "algorithm": "naive",
+      "runs_ms": [
+        0.8433,
+        1.1716,
+        0.9066
+      ],
+      "median_ms": 0.9066,
+      "matches": 1,
+      "verified": true
+    },
+    {
+      "case": "random",
+      "n": 3000,
+      "m": 600,
+      "seed": 407000,
+      "algorithm": "kmp",
+      "runs_ms": [
+        0.9077,
+        0.9417,
+        1.2947
+      ],
+      "median_ms": 0.9417,
+      "matches": 1,
+      "verified": true
+    },
+    {
+      "case": "random",
+      "n": 3000,
+      "m": 600,
+      "seed": 407000,
+      "algorithm": "rk",
+      "runs_ms": [
+        1.6556,
+        1.6656,
+        1.1636
+      ],
+      "median_ms": 1.6556,
+      "matches": 1,
+      "verified": true
+    },
+    {
+      "case": "repetitive",
+      "n": 500,
+      "m": 100,
+      "seed": 404500,
+      "algorithm": "naive",
+      "runs_ms": [
+        6.487,
+        7.1861,
+        5.8688
+      ],
+      "median_ms": 6.487,
+      "matches": 401,
+      "verified": true
+    },
+    {
+      "case": "repetitive",
+      "n": 500,
+      "m": 100,
+      "seed": 404500,
+      "algorithm": "kmp",
+      "runs_ms": [
+        0.1066,
+        0.1058,
+        0.1158
+      ],
+      "median_ms": 0.1066,
+      "matches": 401,
+      "verified": true
+    },
+    {
+      "case": "repetitive",
+      "n": 500,
+      "m": 100,
+      "seed": 404500,
+      "algorithm": "rk",
+      "runs_ms": [
+        8.1434,
+        8.1462,
+        5.5483
+      ],
+      "median_ms": 8.1434,
+      "matches": 401,
+      "verified": true
+    },
+    {
+      "case": "repetitive",
+      "n": 1500,
+      "m": 300,
+      "seed": 405500,
+      "algorithm": "naive",
+      "runs_ms": [
+        60.1835,
+        55.1652,
+        63.4466
+      ],
+      "median_ms": 60.1835,
+      "matches": 1201,
+      "verified": true
+    },
+    {
+      "case": "repetitive",
+      "n": 1500,
+      "m": 300,
+      "seed": 405500,
+      "algorithm": "kmp",
+      "runs_ms": [
+        0.7225,
+        1.4439,
+        1.2046
+      ],
+      "median_ms": 1.2046,
+      "matches": 1201,
+      "verified": true
+    },
+    {
+      "case": "repetitive",
+      "n": 1500,
+      "m": 300,
+      "seed": 405500,
+      "algorithm": "rk",
+      "runs_ms": [
+        121.6259,
+        101.3978,
+        111.7868
+      ],
+      "median_ms": 111.7868,
+      "matches": 1201,
+      "verified": true
+    },
+    {
+      "case": "repetitive",
+      "n": 3000,
+      "m": 600,
+      "seed": 407000,
+      "algorithm": "naive",
+      "runs_ms": [
+        459.4445,
+        362.3341,
+        331.5217
+      ],
+      "median_ms": 362.3341,
+      "matches": 2401,
+      "verified": true
+    },
+    {
+      "case": "repetitive",
+      "n": 3000,
+      "m": 600,
+      "seed": 407000,
+      "algorithm": "kmp",
+      "runs_ms": [
+        1.798,
+        1.8754,
+        4.4006
+      ],
+      "median_ms": 1.8754,
+      "matches": 2401,
+      "verified": true
+    },
+    {
+      "case": "repetitive",
+      "n": 3000,
+      "m": 600,
+      "seed": 407000,
+      "algorithm": "rk",
+      "runs_ms": [
+        255.4997,
+        303.7138,
+        378.1782
+      ],
+      "median_ms": 303.7138,
+      "matches": 2401,
+      "verified": true
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+[
+  {"input":{"task":"lcs","a":"ab","b":"ba"},"expected":{"length":1,"sequence":"a"},"checks":"alternative optimum and reconstruction"},
+  {"input":{"task":"merge","sizes":[1,100,1]},"expected":{"cost":203,"plan":[[1,1,2],[0,0,2]]},"checks":"adjacency and chronological reconstruction"},
+  {"input":{"task":"tree","n":3,"weights":[-1,-2,-3],"edges":[[0,1],[1,2]]},"expected":{"weight":0,"selected":[]},"checks":"empty independent set"},
+  {"input":{"task":"naive","text":"ab","pattern":""},"expected":{"positions":[0,1,2]},"checks":"final empty-pattern boundary"},
+  {"input":{"task":"kmp","text":"abababa","pattern":"aba"},"expected":{"positions":[0,2,4]},"checks":"overlapping matches"},
+  {"input":{"task":"rk","text":"abdj","pattern":"ab"},"expected":{"positions":[0]},"checks":"reject equal-hash false candidate"},
+  {"input":{"task":"suffix","text":"banana"},"expected":{"sa":[5,3,1,0,4,2],"lcp":[0,1,3,0,0,2],"repeated":"ana"},"checks":"nonempty suffixes and overlapping longest repeat"},
+  {"input":{"task":"aho","patterns":["he","she","he"],"texts":["sheshe","","sheshe"]},"expected":{"counts":[[2,2,2],[0,0,0],[2,2,2]]},"checks":"duplicates, suffix links and independent texts"}
+]
